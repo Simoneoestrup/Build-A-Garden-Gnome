@@ -1,10 +1,40 @@
+body {
+  background-color:wheat;
+}
+
 .overskrift{
   font-size: 4em;
   font-family:cursive;
-  margin-top: 1px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  text-align:center;
 }
+
 .slogan{
   font-size: 1.5em;
   font-family: cursive;
   color: darkgreen;
+  margin:0px;
+  text-align:center;
+}
+
+.menulinje{
+  font-size: 1.3em;
+    background-color: black;
+    margin: 2em;
+    padding: .5em;
+    color: white;
+    border: 5px solid wheat;
+    text-align:center;
+}
+
+.billede{
+  margin: 3em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+
+.tekst{
+  margin: -0.5em 4em 0 0;
+  float: right;
 }
