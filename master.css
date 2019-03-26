@@ -34,9 +34,21 @@ body {
   margin-right: 0.5em;
 }
 
+.map{
+  margin: -15.8em 3em 0 0;
+}
+
 .tekst{
   margin: 0.5em 4em 0 0;
   float: right;
+}
+
+.spil{
+  margin: -14.6em 3.5em 0 0;
+  float: right;
+  font-size: 1.3em;
+  color: darkgreen;
+
 }
 
 *{
