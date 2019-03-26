@@ -20,10 +20,10 @@ body {
 
 .menulinje{
   font-size: 1.3em;
-    background-color: black;
+    background-color: darkolivegreen;
     margin: 2em;
     padding: .5em;
-    color: black;
+    color: darkolivegreen;
     border: 5px solid wheat;
     text-align:center;
 }
@@ -61,7 +61,7 @@ nav{
   height: 50px;
   margin-top: -6em;
   margin-bottom: 2em;
-  background-color: black;
+  background-color: darkolivegreen;
   text-align: center;
 }
 
@@ -78,10 +78,28 @@ u1 li a{
   text-decoration: none;
   font-size: 1.3em;
   color: white;
-  background-color: black;
+  background-color: darkolivegreen;
   margin: 1em;
 }
 
 u1 li a:hover{
   color: wheat;
+}
+
+.footer{
+  background-color: darkolivegreen;
+  color: gainsboro;
+
+}
+
+.Adresse{
+  text-align: center;
+}
+
+.Ejerne{
+  text-align: center;
+}
+
+.Kontakt{
+  text-align: right;
 }
