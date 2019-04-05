@@ -103,3 +103,8 @@ u1 li a:hover{
 .Kontakt{
   text-align: right;
 }
+
+#kortspil {
+  width: 100%;
+  height: 500px;
+}
