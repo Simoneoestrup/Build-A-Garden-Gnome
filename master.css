@@ -86,22 +86,56 @@ u1 li a:hover{
   color: wheat;
 }
 
-.footer{
-  background-color: darkolivegreen;
-  color: gainsboro;
-
+.footer-main{
+background: darkolivegreen;
+color: white;
+height: auto;
 }
 
-.Adresse{
+.kontakt{
+  font-size: 21px;
+}
+
+.popd{
+  font-size: 21px;
+}
+
+.pdt{
   text-align: center;
 }
 
-.Ejerne{
+.pdo{
   text-align: center;
+  color: darkolivegreen;
+  font-size: 30px;
 }
 
-.Kontakt{
-  text-align: right;
+.ip{
+  text-align: center;
+  color: darkolivegreen;
+  font-size: 30px;
+}
+
+.itp{
+    text-align: center;
+}
+
+.cad{
+  text-align: center;
+  color: darkolivegreen;
+  font-size: 30px;
+}
+
+.cad{
+
+}
+
+.paa{
+
+}
+
+.dar{
+  
 }
 
 #kortspil {
