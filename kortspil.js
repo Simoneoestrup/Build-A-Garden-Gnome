@@ -110,7 +110,6 @@ window.addEventListener("load", () => {
   });
 
 
-
 });
 
 })();

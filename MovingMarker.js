@@ -6,6 +6,7 @@ L.interpolatePosition = function(p1, p2, duration, t) {
         p1.lng + k * (p2.lng - p1.lng));
 };
 
+
 L.Marker.MovingMarker = L.Marker.extend({
 
     //state constants
