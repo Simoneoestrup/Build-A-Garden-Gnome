@@ -2,6 +2,10 @@ body {
   background-color:wheat;
 }
 
+main {
+  height: 100%;
+}
+
 .overskrift{
   font-size: 4em;
   font-family:cursive;
@@ -135,10 +139,18 @@ height: auto;
 }
 
 .dar{
-  
+
 }
 
 #kortspil {
   width: 100%;
   height: 500px;
+}
+
+.newsletter {
+  text-align: center;
+}
+
+.nameogmail {
+
 }
