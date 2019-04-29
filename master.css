@@ -123,22 +123,54 @@ height: auto;
 .cad{
   text-align: center;
   color: darkolivegreen;
-  font-size: 30px;
+  font-size: 40px;
 }
 
-.cad{
+.maa{
+  color: darkolivegreen;
+  font-size: 30px;
+  left: 70;
+  position: absolute;
+}
 
+.youcan{
+  color: black;
+  font-size: 15px;
+  left: 70;
+  position: absolute;
 }
 
 .paa{
+  color: darkolivegreen;
+  font-size: 30px;
+  left: 600;
+  position: absolute;
+}
 
+.phone{
+  color: black;
+  font-size: 15px;
+  left: 600;
+  position: absolute;
 }
 
 .dar{
-  
+  color: darkolivegreen;
+  font-size: 30px;
+  left: 1100;
+  position: absolute;
 }
+
+.delivery{
+  color: black;
+  font-size: 15px;
+  left: 1100;
+  position: absolute;
+
 
 #kortspil {
   width: 100%;
   height: 500px;
 }
+
+.
