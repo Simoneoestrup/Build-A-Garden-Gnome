@@ -124,24 +124,20 @@ height: auto;
     text-align: center;
 }
 
-.cad{
-  text-align: center;
-  color: darkolivegreen;
-  font-size: 40px;
-}
-
 .maa{
   color: darkolivegreen;
   font-size: 30px;
   left: 70;
   position: absolute;
+  margin-top: 0.9px;
 }
 
 .youcan{
   color: black;
   font-size: 15px;
-  left: 70;
-  position: absolute;
+  left:70;
+position: absolute;
+margin-top: -0.01cm;
 }
 
 .paa{
@@ -149,6 +145,7 @@ height: auto;
   font-size: 30px;
   left: 600;
   position: absolute;
+  margin-top: -70px;
 }
 
 .phone{
@@ -156,10 +153,15 @@ height: auto;
   font-size: 15px;
   left: 600;
   position: absolute;
+  margin-top: -2cm;
 }
 
 .dar{
-
+  color: darkolivegreen;
+  font-size: 30px;
+  left: 1100;
+  position: absolute;
+  margin-top: -140px;
 }
 
 .delivery{
@@ -167,6 +169,7 @@ height: auto;
   font-size: 15px;
   left: 1100;
   position: absolute;
+  margin-top: -4cm;
 }
 
 #kortspil {
