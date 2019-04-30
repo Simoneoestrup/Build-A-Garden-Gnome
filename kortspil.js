@@ -37,13 +37,13 @@ window.addEventListener("load", () => {
         continuousWorld: true,
         center: [55.67, 12.55], // Set center location
         zoom: 9, // Set zoom level
-        minzoom: 0,
-        maxzoom: 13
+        minzoom: 10,
+        maxzoom: 10
     });
 
     var ortofotowmts = L.tileLayer('https://services.kortforsyningen.dk/orto_foraar?token=' + token + '&request=GetTile&version=1.0.0&service=WMTS&Layer=orto_foraar&style=default&format=image/jpeg&TileMatrixSet=View1&TileMatrix={zoom}&TileRow={y}&TileCol={x}', {
-		minZoom: 0,
-        maxZoom: 13,
+        maxZoom: 10,
+        minZoom: 10,
         attribution: attribution,
         crossOrigin: true,
         zoom: function () {
@@ -94,20 +94,26 @@ window.addEventListener("load", () => {
     iconUrl: "Nissefar.png",
     iconSize: [45, 45],
     iconAnchor: [23, 23],
-    shadowUrl: null
+    shadowUrl: null,
+    popupAnchor: [0, -23]
   });
 
   fetch("nisserute.json").then(res => res.json()).then(data => {
     L.geoJSON(data, {
       onEachFeature: (feature, layer) => {
-        let nfar = L.Marker.movingMarker(feature.geometry.coordinates.map(e => [e[1], e[0]]), 20000, {
+        let nfar = L.Marker.movingMarker(feature.geometry.coordinates.map(e => [e[1], e[0]]), 30000, {
           icon: nissefar,
           loop: true
         }).addTo(mymap);
+        nfar.bindPopup('Sign up for our newsletter and get your 10% off <a href="newsletter.html">here</a>');
+        nfar.on('click', e => {
+          nfar.stop();
+        });
         nfar.start();
       }
     });
   });
+
 
 
 });
